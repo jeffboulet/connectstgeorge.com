@@ -1,0 +1,44 @@
+{
+  "name": "squaremill.com",
+  "version": "1.0.0",
+  "description": "squaremill.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "acorn": "^6.2.1",
+    "autoprefixer": "^9.6.1",
+    "braces": "^3.0.2",
+    "browser-sync": "^2.26.7",
+    "concat": "^1.0.3",
+    "cssnano": "^4.1.10",
+    "del": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-include": "^2.4.1",
+    "gulp-logger": "0.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-spawn": "^0.4.4",
+    "jekyll": "^3.0.0-beta1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SquareMill/squaremill.com.git"
+  },
+  "author": "Square Mill Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SquareMill/squaremill.com/issues"
+  },
+  "homepage": "https://github.com/SquareMill/squaremill.com#readme",
+  "optionalDependencies": {}
+}

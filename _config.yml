@@ -1,0 +1,91 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Square Mill Labs
+email: hi@squaremill.com
+description: We specialize in cloud based, secure, responsive web applications with a focus on web best practices and user experience.
+# the base hostname & protocol for your site
+# url: "http://squaremill.com/new-site" # production
+url: "https://squaremill.com" # dev
+twitter_handle: "@squaremill"
+
+# Build settings
+source: app
+destination: _deploy
+markdown: kramdown
+include: [ '_redirects' ]
+incremental: false
+timezone: America/New_York
+
+keep_files: [
+  stylesheets,
+  javascripts,
+  images
+]
+
+exclude: [
+  _assets/,
+  node_modules,
+  gulpfile.js,
+  package.json,
+  Graphics
+]
+
+defaults:
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: project-show
+      active-tab: Projects
+
+  - scope:
+      path: "about"
+    values:
+      layout: "page"
+      active-tab: About
+      body-id: about
+  - scope:
+      path: "services"
+    values:
+      layout: "page"
+      active-tab: Services
+      body-id: services
+  -
+    scope:
+      path: "blog"
+    values:
+      layout: "blog"
+      active-tab: Blog
+      body-id: blog
+  -
+    scope:
+      path: "labs"
+    values:
+      layout: "page"
+      body-id: labs
+
+collections:
+  # create directories for each of these
+  # enables urls to appear as /about instead of about/index.html
+  # need to also add entry to .htaccess for that to happen
+  about:
+  blog:
+    output: true
+    permalink: /blog/:path/
+  contact:
+  fonts:
+  images:
+  labs:
+    output: true
+    permalink: /labs/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  project-images:
+  services:

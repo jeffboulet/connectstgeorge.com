@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+
+# services isn't live yet / august 2019
+/services        /   302
+# we get traffic to old blog urls, we can revive important posts as ne
+/blog            /   302
+/blog/*          /   302
