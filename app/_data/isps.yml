@@ -1,0 +1,36 @@
+- name: Charter / Spectrum
+  contact: Melinda Kinney
+  email: Melinda.Kinney@charter.com
+  notes: |-
+    <p>Charter / Spectrum has the largest area of coverage in St George. If you have access to them, then you have access to high speed internet.</p>
+    <p>If you pay them for service and your service is slower than expected there are a couple things you can do:</p>
+    <ul>
+    <li>Call them and explain your issue. It's possible you are on an old plan OR a slow plan.</li>
+    <li>You may have malfunctioning equipment like an old router or modem. Or you have an old computer that isn't working correctly.</li>
+    </ul>
+
+- name: LCI (Lincolnville Communications)
+  contact: Alan Hinsey
+  email: alanh@lcifiber.net
+  notes:
+    <p>Does not currently provider service in St George.</p>
+
+- name: GWI (Great works Internet)
+  contact: Fletcher Kittredge
+  email: fkittred@staff.gwi.net
+  contact2: Karem Durdag
+  email2: kdurdag@staff.gwi.net
+  notes:
+    <p>Does not currently provider service in St George.</p>
+
+- name: Consolidated
+  contact: Jeff Nevins
+  email: Jeffrey.Nevins@consolidated.com
+  notes: |-
+    <p>Consolidated provides DSL service in our community. If you pay them for service, please know that DSL has known date speed limitations. This can have an affect on watching movies, video conferencing and general internet use.</p>
+
+- name: Axiom Technology
+  contact: Mark Ouellette
+  email: mark@connectwithaxiom.com
+  notes: |-
+    <p>Does not currently provider service in St George. Provides service on Monhegan (get more detail on this).</p>

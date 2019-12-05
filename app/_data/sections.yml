@@ -1,0 +1,145 @@
+- position: 20
+  title: What is Connect St George?
+  description: |-
+    <p>Connect St George is a community broadband working group. We are a committee of concerned residents operating through the <a href="https://www.stgeorgecommunity.org" target="_blank" rel="nofollow">St George Community Development Corporation</a>, located at 47 Main St. in Tenants Harbor, Maine.</p>
+    <p>For more information, follow the links below:</p>
+    <ul><li><a href="https://www.stgeorgecommunity.org" target="_blank" rel="nofollow">St George Community Development Corporation</a></li>
+    <li><a href="https://www.stgeorgecommunity.org/broadband-committee/" target="_blank" rel="nofollow">Connect St George</a></li></ul>
+
+- position: 30
+  title: What is high speed internet service?
+  description: |-
+    <p>The Federal Government defines broadband as having minimum data transfer speeds of 25/3 (25 megabytes per second download / 3 mb/s upload).</p>
+    <p>Our group takes this definition a bit further. While there are Internet Service Providers (ISPs) in our community who can achieve those data speeds at peak times, they cannot reliably guarantee those speeds. We also look at their ability to provide increased speeds in the future. If their networks are at their current limit now, they will not be sufficient in the future.</p>
+
+- position: 31
+  title: Why is high speed internet service important?
+  description: |-
+    <p>There are many reasons why high speed internet (hsri) is important.</p>
+    <p>Our community currently uses the internet for school, continuing education, work, telehealth and business. For each of these needs, high speed internet is important.</p>
+
+- position: 40
+  title: Which ISPs provides high speed internet service in St George?
+  description: |-
+    <p>Spectrum / Charter is the only Internet Service Provider (ISP) in our community capable of meeting our group’s minimum threshold for "high speed internet". They offer several internet packages that exceed this minimum definition.</p>
+
+- position: 50
+  title: Current Coverage
+  description: |-
+    <p>85% (verify with JM) our community has access to Charter / Spectrum. 40-45% of those residences utilize their service. Through our work in the community we’ve learned that many residents who have access to Charter / Spectrum, either do not take the service or have old equipment that limits the speed of their service.</p>
+- position: 51
+  title: Challenges & Issues
+  description: |-
+    <ul>
+      <li>Identifying residences who actually don't have access service. While many residents </li>
+    </ul>
+- position: 60
+  title: What contributes to the cost of expanding a broadband network?
+  description:  |-
+    <ul>
+      <li>Labor
+      <li>Cable (fiber optic or copper)
+      <li>Amplifiers
+      <li>Other equipment...
+      <li>Distance
+      <li>Take rate (number of homes that take service) - this increases cost at the beginning, but reduces costs in the end by committing to pay for internet service.</li>
+      <li>Make ready (cost for preparing a telephone pole for the cable)</li>
+      <li>New poles (approximately 10% of poles need to be replaced before new cable is run)</li>
+    </ul>
+- position: 70
+  title: How would an incumbent provider expand service?
+  description:  |-
+    <p>
+    Take this question:<br>
+    "I need fiber optic cables for high speed internet service in St George"
+    </p>
+    <p>Spectrum has their own private service lines all over the peninsula with fiber optic trunk lines on Rt 131 (at least). In order to serve a neighborhood within the community with fiber, they would need to tap into the nearest fiber line.</p>
+
+    <p><strong>Pros</strong></p>
+    <ul>
+    <li>Costs less</li>
+    <li>Takes less time (maybe)</li>
+    <li>Spectrum could subsidize the build out (of their own network)</li>
+    </ul>
+
+    <p><strong>Cons</strong></p>
+    <ul>
+    <li>Spectrum owns the network and the equipment.</li>
+    <li>If we help them pay for it, our Town has subsidized building their network.</li>
+    </ul>
+- position: 80
+  title: How would Axiom, LCI, GWI, etc. (non-incumbent) expand service?
+  description: |-
+    <p>
+    Take the same question:<br>
+    "I need fiber optic cables for high speed internet service in St George"
+    </p>
+    <p>A non-incumbent provider has no fiber optic cable in St George. However, the nearest public fiber is on Rt 1. That’s relatively close (compared to many other communities with the same issue).</p>
+
+    <p>In order to serve fiber to St George, a non-incumbent would need to run fiber down Rt 131 to St George. This main cable is referred to as a trunk line. Smaller cables that run from the trunkline are branchlines.  </p>
+
+    <p>Incumbents (Spectrum) typically do not share access to any of their lines.</p>
+
+    <p><strong>Pros</strong></p>
+    <ul>
+    <li>After a trunk line is run, other costs would likely be similar to Spectrum’s costs</li>
+    <li>Smaller, non-incumbents can offer municipalities ways in which to pay for the build out (see Ownership Models)</li>
+    <li>If the Town of St George owns the fiber network, they can lease it to any service provider now or into the future.</li>
+    <li>It’s typical that there’s an upfront contract that determines which ISP(s) will operate on the network (at least to start). </li>
+    </ul>
+
+    <p><strong>Cons</strong></p>
+    <ul>
+    <li>The initial expense of running fiber from Rt 1 down Rt 131 is high.</li>
+    </ul>
+
+- position: 90
+  title: Network ownership models
+  description: |-
+    <p>from Island Inst Brochure</p>
+
+    <p><strong>Incumbent owned and operated</strong></p>
+    <ul><li>We help Spectrum expand existing network</li></ul>
+
+    <p><strong>Community owned, ISP operated</strong></p>
+    <ul><li>Likely providing symmetrical speed capabilities</li></ul>
+
+    <p><strong>Community owned, single-payer to ISP</strong></p>
+    <ul><li>Likely administered by the municipality</li></ul>
+
+    <p><strong>Community owned and operated</strong></p>
+    <ul><li>Likely by leasing to the ISP(s)</li></ul>
+
+- position: 100
+  title: Financial models to pay for network and service
+  description: |-
+    <p>from Island Inst Brochure</p>
+
+    <p><strong>Incumbent investments</strong></p>
+    <ul><li>Subsidies</li>
+    <li>Unlikely to include public involvement</li></ul>
+
+    <p><strong>Philanthropic</strong></p>
+    <ul><li>Requires a financially legit recipient
+    <li>Wouldn’t likely pay for all</li>
+    <li>Less than $50k likely</li></ul>
+
+    <p><strong>Municipal reserve funds</strong></p>
+    <ul><li>Town or council vote is required</li>
+    <li>Unlikely more than $100k</li></ul>
+
+    <p><strong>Municipal load / credit</strong></p>
+    <ul><li>Requires town vote</li>
+    <li>Likely 10s of thousands of dollars / year</li></ul>
+
+    <p><strong>Municipal bond / dept</strong></p>
+    <ul><li>Town or council vote</li>
+    <li>$500K+</li></ul>
+
+    <p><strong>State infrastructure grants</strong></p>
+    <ul><li>Likely between $500k and a few million</li>
+    <li>Requirement: matching $ from ISP or town</li></ul>
+
+    <p><strong>Federal infrastructure grants</strong></p>
+    <ul><li>Competitive and onerous</li>
+    <li>Matching $ from the recipient and high community support required</li></ul>

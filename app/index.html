@@ -3,50 +3,49 @@ layout: text
 title: Connect St George
 ---
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm-3">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Mission Statement</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">What is High Speed Reliable Internet?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Existing Coverage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+      <div id="sidenav">
+        <ul class="nav flex-column">
+          {% for section in site.data.sections %}
+            <li class="nav-item">
+              <a class="nav-link" href="#{{ section.title | slugify }}">
+                {{ section.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    <div class="col-sm-8 offset-sm-1">
-      <h1>Connect St George</h1>
+    <div class="col-sm-9">
+      <div class="main-content">
+        <div>
+          <h1 class="display-4">Connect St George</h1>
+          <p class="text-md">Connect St George seeks to achieve universal access to high speed reliable internet in St George to support education, healthcare, civic engagement, aging in place, and local businesses.</p><br>
+        </div>
 
-      <section id="mission">
-        <h1>Mission statement</h1>
-        <p>Connect St George seeks to achieve universal access to high speed reliable internet in St George to support education, healthcare, civic engagement, aging in place, and local businesses.</p>
-      </section>
+        <hr>
 
-      <section id="hsri">
-        <h1>What is high speed internet service?</h1>
-        <p>The Federal Government defines broadband as having minimum data transfer speeds of 25/3 (25 megabytes per second download / 3 mb/s upload).</p>
-        <p>Our group takes this definition a bit further. While there are Internet Service Providers (ISPs) in our community who can achieve those data speeds at peak times, they cannot reliably guarantee those speeds. We also look at their ability to provide increased speeds in the future. If their networks are at their current limit now, they will not be sufficient in the future.</p>
-      </section>
-
-      <section id="coverage">
-        <h1>Existing Coverage</h1>
-        <p>Spectrum / Charter is the only Internet Service Provider (ISP) in our community capable of meeting our group’s minimum threshold for "high speed internet". They offer several internet packages that exceed this minimum definition.</p>
-        <p>85% our community has access to Charter / Spectrum. 40-45% of those residences utilize their service. Through our work in the community we’ve learned that many residents who have access to Charter / Spectrum, either do not take the service or have old equipment that limits the speed of their service.</p>
-      </section>
-
-
-
-
+        {% for section in site.data.sections %}
+          <section id="{{ section.title  | slugify }}" class="section">
+            <h1 class="h3">{{ section.title }}</h1>
+            <div class="text-lg">
+              {{ section.description }}
+            </div>
+          </section>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
+
+
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    $("#sidenav a").on('click', function() {
+      $("#sidenav a.active").removeClass('active');
+      $(this).addClass('active');
+    })
+  })
+</script>

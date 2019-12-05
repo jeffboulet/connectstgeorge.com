@@ -1,0 +1,19 @@
+---
+layout: text
+title: Glossary | Connect St George
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <h1>Glossary</h1>
+      {%- assign terms = site.data.terms | sort: "term" -%}
+      <dl class="">
+        {% for term in terms %}
+          <dt>{{ term.term }}</dt>
+          <dd>{{ term.definition }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+  </div>
+</div>

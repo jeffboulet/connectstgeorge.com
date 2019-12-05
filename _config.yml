@@ -36,56 +36,12 @@ exclude: [
   Graphics
 ]
 
-defaults:
-  -
-    scope:
-      path: "projects"
-    values:
-      layout: project-show
-      active-tab: Projects
-
-  - scope:
-      path: "about"
-    values:
-      layout: "page"
-      active-tab: About
-      body-id: about
-  - scope:
-      path: "services"
-    values:
-      layout: "page"
-      active-tab: Services
-      body-id: services
-  -
-    scope:
-      path: "blog"
-    values:
-      layout: "blog"
-      active-tab: Blog
-      body-id: blog
-  -
-    scope:
-      path: "labs"
-    values:
-      layout: "page"
-      body-id: labs
-
-collections:
-  # create directories for each of these
-  # enables urls to appear as /about instead of about/index.html
-  # need to also add entry to .htaccess for that to happen
-  about:
-  blog:
-    output: true
-    permalink: /blog/:path/
-  contact:
-  fonts:
-  images:
-  labs:
-    output: true
-    permalink: /labs/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-  project-images:
-  services:
+# defaults:
+#
+#
+# collections:
+#   # create directories for each of these
+#   # enables urls to appear as /about instead of about/index.html
+#   # need to also add entry to .htaccess for that to happen
+#   meetings:
+#   isps:

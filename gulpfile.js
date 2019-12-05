@@ -18,7 +18,7 @@ const sass = require("gulp-sass");
 const siteRoot = '_deploy';
 
 const src = {
-  scss: "./app/_assets/stylesheets/**/*.scss",
+  scss: "./app/_assets/stylesheets/mn_application.scss",
   cssDest: "_deploy/stylesheets/",
   js: "./app/_assets/javascripts/mn_application.js",
   jsDest: "./_deploy/javascripts/"

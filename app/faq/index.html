@@ -1,0 +1,21 @@
+---
+layout: text
+title: Frequently Asked Questions | Connect St George
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <h1>Frequently Asked Questions</h1>
+      {%- assign faqs = site.data.faqs | sort: "term" -%}
+      {% for faq in faqs %}
+        <section id="isps" class="section">
+          <h1 class="h2">{{ faq.term }}</h1>
+          <p>
+            {{ faq.definition }}
+          </p>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</div>

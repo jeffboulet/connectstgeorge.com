@@ -1,0 +1,29 @@
+---
+layout: text
+title: Internet Service Providers | Connect St George
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <h1>Internet Service Providers</h1>
+      {%- assign isps = site.data.isps | sort: "name" -%}
+      {% for isp in isps %}
+        <section id="isps" class="section">
+          <h1 class="h2">{{ isp.name }}</h1>
+          <p>
+            Contact: <a href="mailto:{{ isp.email }}" target="_blank">{{ isp.contact }}</a>
+            {% if isp.contact2 %}
+              <br>Contact: <a href="mailto:{{ isp.email2 }}" target="_blank">{{ isp.contact2 }}</a>
+            {% endif %}
+          </p>
+          {% if isp.notes %}
+            <div class="">
+              {{ isp.notes }}
+            </div>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</div>
