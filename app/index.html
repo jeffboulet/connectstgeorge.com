@@ -3,27 +3,18 @@ layout: text
 title: Connect St George
 ---
 
-<div class="container-fluid">
+{% include sidenav.html %}
+
+<div class="container">
   <div class="row">
-    <div class="col-sm-3">
-      <div id="sidenav">
-        <ul class="nav flex-column">
-          {% for section in site.data.sections %}
-            <li class="nav-item">
-              <a class="nav-link" href="#{{ section.title | slugify }}">
-                {{ section.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm-9">
-      <div class="main-content">
-        <div>
-          <h1 class="display-4">Connect St George</h1>
-          <p class="text-md">Connect St George seeks to achieve universal access to high speed reliable internet in St George to support education, healthcare, civic engagement, aging in place, and local businesses.</p><br>
-        </div>
+    <div class="col-12" id="main">
+      <!-- <div class="main-content"> -->
+        <h1 class="page-title">Connect St George</h1>
+        <p class="text-md">Connect St George seeks to achieve universal access to high speed reliable internet in St George to support education, healthcare, civic engagement, aging in place, and local businesses.</p>
+
+        <p><a href="https://docs.google.com/document/d/1Lu73D9YIvHPwur-tDwDOv8ubF7suHVW8N4aZRcNMC_k/edit" target="_blank">Please submit edits here.</a></p>
+
+        <br>
 
         <hr>
 
@@ -37,7 +28,7 @@ title: Connect St George
         {% endfor %}
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </div>
 
 

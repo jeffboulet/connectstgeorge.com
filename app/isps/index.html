@@ -5,8 +5,8 @@ title: Internet Service Providers | Connect St George
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 offset-sm-2">
-      <h1>Internet Service Providers</h1>
+    <div class="col-12" id="main">
+      <h1 class="page-title">Internet Service Providers</h1>
       {%- assign isps = site.data.isps | sort: "name" -%}
       {% for isp in isps %}
         <section id="isps" class="section">

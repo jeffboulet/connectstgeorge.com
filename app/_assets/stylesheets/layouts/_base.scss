@@ -1,8 +1,53 @@
 body {
   position: relative;
-  padding-top: 60px;
+  padding-top: $nav-height;
 }
 
+#main {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 576px) {
+
+  body {
+    padding-left:  $sidenav-width + 2%;
+  }
+
+  #sidenav {
+    position: fixed;
+    top: $nav-height;
+    left: 0;
+    bottom: 0;
+    width: $sidenav-width;
+    background-color: #eee;
+
+    .mask {
+      padding: 40px 20px;
+      height: 100%;
+      overflow-y: scroll;
+    }
+
+    a {
+      color: #00f;
+
+      &.active {
+        background-color: darken(#eee,10%);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+
+  body {
+    padding-right: $sidenav-width + 2%;
+  }
+}
+
+
+.page-title {
+  padding-top: 50px;
+}
 
 .section {
   margin-top:    50px;

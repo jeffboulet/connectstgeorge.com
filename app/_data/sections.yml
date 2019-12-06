@@ -9,7 +9,7 @@
 - position: 30
   title: What is high speed internet service?
   description: |-
-    <p>The Federal Government defines broadband as having minimum data transfer speeds of 25/3 (25 megabytes per second download / 3 mb/s upload).</p>
+    <p>The Federal Communications Commission (FCC) defines broadband as having minimum data transfer speeds of 25/3 (25 megabytes per second download / 3 mb/s upload).</p>
     <p>Our group takes this definition a bit further. While there are Internet Service Providers (ISPs) in our community who can achieve those data speeds at peak times, they cannot reliably guarantee those speeds. We also look at their ability to provide increased speeds in the future. If their networks are at their current limit now, they will not be sufficient in the future.</p>
 
 - position: 31
@@ -17,6 +17,7 @@
   description: |-
     <p>There are many reasons why high speed internet (hsri) is important.</p>
     <p>Our community currently uses the internet for school, continuing education, work, telehealth and business. For each of these needs, high speed internet is important.</p>
+    <p>TODO this is a stub - needs to be compelling and address 5G, beyond 5G, etc. </p>
 
 - position: 40
   title: Which ISPs provides high speed internet service in St George?
@@ -31,7 +32,7 @@
   title: Challenges & Issues
   description: |-
     <ul>
-      <li>Identifying residences who actually don't have access service. While many residents </li>
+      <li>Identifying residences who don't have access to high speend internet.</li>
     </ul>
 - position: 60
   title: What contributes to the cost of expanding a broadband network?
@@ -42,7 +43,7 @@
       <li>Amplifiers
       <li>Other equipment...
       <li>Distance
-      <li>Take rate (number of homes that take service) - this increases cost at the beginning, but reduces costs in the end by committing to pay for internet service.</li>
+      <li>Take rate (number of homes that take service) - this increases cost at the beginning during the build phase. However, as more subscribers are added, they eventually help pay for the infrastructure over time.</li>
       <li>Make ready (cost for preparing a telephone pole for the cable)</li>
       <li>New poles (approximately 10% of poles need to be replaced before new cable is run)</li>
     </ul>
@@ -51,8 +52,9 @@
   description:  |-
     <p>
     Take this question:<br>
-    "I need fiber optic cables for high speed internet service in St George"
+    "I need high speed internet service in St George that will grow with my needs for the foreseeable future."
     </p>
+    <p>You need internet transmitted through fiber optic cables.</p>
     <p>Spectrum has their own private service lines all over the peninsula with fiber optic trunk lines on Rt 131 (at least). In order to serve a neighborhood within the community with fiber, they would need to tap into the nearest fiber line.</p>
 
     <p><strong>Pros</strong></p>
@@ -72,8 +74,9 @@
   description: |-
     <p>
     Take the same question:<br>
-    "I need fiber optic cables for high speed internet service in St George"
+    "I need high speed internet service in St George that will grow with my needs for the foreseeable future."
     </p>
+    <p>You need internet transmitted through fiber optic cables.</p>
     <p>A non-incumbent provider has no fiber optic cable in St George. However, the nearest public fiber is on Rt 1. That’s relatively close (compared to many other communities with the same issue).</p>
 
     <p>In order to serve fiber to St George, a non-incumbent would need to run fiber down Rt 131 to St George. This main cable is referred to as a trunk line. Smaller cables that run from the trunkline are branchlines.  </p>

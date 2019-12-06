@@ -1,0 +1,13 @@
+<div id="sidenav" class="d-none d-sm-block">
+  <div class="mask">
+    <ul class="nav flex-column">
+      {% for section in site.data.sections %}
+        <li class="nav-item">
+          <a class="nav-link" href="#{{ section.title | slugify }}">
+            {{ section.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

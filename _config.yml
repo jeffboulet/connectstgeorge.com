@@ -6,13 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Square Mill Labs
-email: hi@squaremill.com
+title: Connect St George
+email: jeff.boulet@gmail.com
 description: We specialize in cloud based, secure, responsive web applications with a focus on web best practices and user experience.
 # the base hostname & protocol for your site
 # url: "http://squaremill.com/new-site" # production
-url: "https://squaremill.com" # dev
-twitter_handle: "@squaremill"
+url: "http://connectstgeorge.com" # dev
 
 # Build settings
 source: app
@@ -32,16 +31,5 @@ exclude: [
   _assets/,
   node_modules,
   gulpfile.js,
-  package.json,
-  Graphics
+  package.json
 ]
-
-# defaults:
-#
-#
-# collections:
-#   # create directories for each of these
-#   # enables urls to appear as /about instead of about/index.html
-#   # need to also add entry to .htaccess for that to happen
-#   meetings:
-#   isps:

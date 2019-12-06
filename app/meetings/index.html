@@ -5,19 +5,21 @@ title: Meeting Notes and Agendas | Connect St George
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 offset-sm-2">
-      <h1>Meeting Agendas and Notes</h1>
-      <ul>
-        {% assign meetings = site.data.meetings | sort: 'date' | reverse %}
-        {% for meeting in meetings %}
-          <li>
-            <a href="{{ meeting.google_docs_url }}" target="_blank" rel="noreferrer" style="display: block">
-              <strong>Agenda and Notes</strong><br/>
-              {{ meeting.date | date: "%A, %B %e, %Y" }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="col-12" id="main">
+      <h1 class="page-title">Meeting Agendas and Notes</h1>
+      <section class="section">
+        <ul>
+          {% assign meetings = site.data.meetings | sort: 'date' | reverse %}
+          {% for meeting in meetings %}
+            <li class="mb-4">
+              <a href="{{ meeting.google_docs_url }}" target="_blank" rel="noreferrer" style="display: block">
+                <strong>Agenda and Notes</strong><br/>
+                {{ meeting.date | date: "%A, %B %e, %Y" }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
     </div>
   </div>
 </div>

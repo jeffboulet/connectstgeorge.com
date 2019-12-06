@@ -1,45 +1,59 @@
 - term: Digital Divide
-  definition: the opportunity gap between people or communities who have access to computers and high-speed internet and those who don’t.
+  definition: |-
+    the opportunity gap between people or communities who have access to computers and high-speed internet and those who don’t.
 
 - term: Download
-  definition: receive and consume data. Examples: email, video, and audio in video chat, text messages, pictures, documents, watch video on a smart TV or another device, streaming
+  definition: |-
+    receive and consume data. Examples: email, video, and audio in video chat, text messages, pictures, documents, watch video on a smart TV or another device, streaming
 
 - term: Upload
-  definition: produce and send data. Examples: email, video, and audio in video chat, text messages, pictures, and video, documents, graphics
+  definition: |-
+    produce and send data. Examples: email, video, and audio in video chat, text messages, pictures, and video, documents, graphics
 
 - term: Download speed vs upload speed
-  definition: Internet speeds are given as two numbers, first the download speed and then the upload speed. There can be a large difference between these two numbers. Most commonly measured in Megabytes per second (Mb/s). Examples: 10/1 (slow), 25/3 (minimum broadband), 100/15 (high).
+  definition: |-
+    Internet speeds are given as two numbers, first the download speed and then the upload speed. There can be a large difference between these two numbers. Most commonly measured in Megabytes per second (Mb/s). Examples: 10/1 (slow), 25/3 (minimum broadband), 100/15 (high).
 
 - term: Digital consumer
-  definition: a person who consumes data on the internet. This includes checking email, using social media and watching TV online. Most people fall into this category.
+  definition: |-
+    a person who consumes data on the internet. This includes checking email, using social media and watching TV online. Most people fall into this category.
 
 - term: Digital producer
-  definition: a person who creates or produces data that is shared using the internet. More and more traditional workers are producers. Digital producers
-  are not limited to white collar shop owners, architects, designers, photographers, videographers, marketing industry professionals. They also include people in traditional industries like the fisheries when they report weather, tidal conditions, and submit trip landings and catch data to NOAA.
+  definition: |-
+    a person who creates or produces data that is shared using the internet. More and more traditional workers are producers. Digital producers are not limited to white collar shop owners, architects, designers, photographers, videographers, marketing industry professionals. They also include people in traditional industries like the fisheries when they report weather, tidal conditions, and submit trip landings and catch data to NOAA.
 
 - term: Internet Service Provider (ISP)
-  definition: a private company that provides internet to premises in a community. Historically, they own the infrastructure and operate or manage the service provided in the community. Local ISPs are Spectrum, LCI/Tidewater, Axiom, Consolidated Communications, GWI, Pioneer,
+  definition: |-
+    a private company that provides internet to premises in a community. Historically, they own the infrastructure and operate or manage the service provided in the community. Local ISPs are Spectrum, LCI/Tidewater, Axiom, Consolidated Communications, GWI, Pioneer,
 
 - term: Broadband
-  definition: A federally defined minimum speed of 25/3 Mbps that is based on the national average. high-speed internet.
+  definition: |-
+    A federally defined minimum speed of 25/3 Mbps that is based on the national average. high-speed internet.
 
 - term: High-speed reliable internet
-  definition: differs from broadband in the sense that not all broadband is reliable. Many broadband network speeds increase and decrease depending on the number of people using it. High-speed reliable internet always runs at consistent speeds regardless of the number of connections and traffic.
+  definition: |-
+    differs from broadband in the sense that not all broadband is reliable. Many broadband network speeds increase and decrease depending on the number of people using it. High-speed reliable internet always runs at consistent speeds regardless of the number of connections and traffic.
 
 - term: Last mile
-  definition: refers to the link between you, the end-user or customer, and the main cable, no matter the actual distance. It is the most expensive part of the network, the hardest to upgrade, and the speed bottleneck. In St George, we think of the ‘last mile’ of internet access as the private dirt roads that are currently not served by Charter/Spectrum.
+  definition: |-
+    refers to the link between you, the end-user or customer, and the main cable, no matter the actual distance. It is the most expensive part of the network, the hardest to upgrade, and the speed bottleneck. In St George, we think of the ‘last mile’ of internet access as the private dirt roads that are currently not served by Charter/Spectrum.
 
 - term: 5G (device)
-  definition: phones, cars, and other digital devices optimized for 5G networks speed. 5G devices are limited by the speed of the network they are on.
+  definition: |-
+    phones, cars, and other digital devices optimized for 5G networks speed. 5G devices are limited by the speed of the network they are on.
 
 - term: 5G (network)
-  definition: the fifth generation, small-cell, cellular network technology that provides broadband access. High-speed cellular networks require a fiber network. 5G requires deep fiber.
+  definition: |-
+    the fifth generation, small-cell, cellular network technology that provides broadband access. High-speed cellular networks require a fiber network. 5G requires deep fiber.
 
 - term: Deep fiber
-  definition: fiber cables that serve customers directly, often referred to as fiber to the premise or fiber to the home (FTTH). This is the fastest and most reliable internet.
+  definition: |-
+    fiber cables that serve customers directly, often referred to as fiber to the premise or fiber to the home (FTTH). This is the fastest and most reliable internet.
 
 - term: Franchise agreement
-  definition: a legal agreement of services provided by an internet service provider and the community, in this case between Charter Communication (Spectrum) and the Town of St George for cable service. The current agreement expires in December 2021.
+  definition: |-
+    a legal agreement of services provided by an internet service provider and the community, in this case between Charter Communication (Spectrum) and the Town of St George for cable service. The current agreement expires in December 2021.
 
 - term: Latency
-  definition: the lag time experienced by the digital consumer when trying to download or upload on an existing network. Sometimes depicted as buffering or timing out.
+  definition: |-
+    the lag time experienced by the digital consumer when trying to download or upload on an existing network. Sometimes depicted as buffering or timing out.
